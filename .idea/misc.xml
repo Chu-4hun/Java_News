@@ -5,7 +5,10 @@
       <map>
         <entry key="..\:/CODE/android/News/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1395" />
         <entry key="..\:/CODE/android/News/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1395" />
+        <entry key="..\:/CODE/android/News/app/src/main/res/layout/activity_all_news.xml" value="0.1933876811594203" />
+        <entry key="..\:/CODE/android/News/app/src/main/res/layout/activity_main.xml" value="0.1933876811594203" />
         <entry key="..\:/CODE/android/News/app/src/main/res/layout/activity_splash.xml" value="0.10552536231884058" />
+        <entry key="..\:/CODE/android/News/app/src/main/res/layout/recyclerview_item.xml" value="0.1933876811594203" />
       </map>
     </option>
   </component>

@@ -43,14 +43,25 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/btnRegistration"
         android:layout_width="175dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:onClick="registrationClick"
         android:text="Регистрация"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnEnter"
+        app:layout_constraintTop_toBottomOf="@id/btnEnter" />
+
+    <Button
+        android:id="@+id/BiometricBtn"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="30sp"
-        android:onClick="registrationClick"
-        android:id="@+id/btnRegistration"/>
+        android:onClick="btnTouchClick"
+        android:text="Вход по пальцу"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnRegistration" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
